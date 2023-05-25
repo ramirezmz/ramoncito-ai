@@ -1,0 +1,21 @@
+# top-most EditorConfig file
+root = true
+
+# Configuração geral
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Configuração para arquivos JavaScript e TypeScript
+[*.js]
+indent_style = space
+indent_size = 2
+
+[*.ts]
+indent_style = space
+indent_size = 2
+
+# Configuração específica para arquivos Markdown
+[*.md]
+trim_trailing_whitespace = false
